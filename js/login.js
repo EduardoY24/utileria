@@ -18,7 +18,7 @@ event.preventDefault();
 
     mensajeError.textContent = "";
     if (correoValido && contrasenaValida && mayorDeEdad) {
-        window.location.href = "index.html";
+        window.location.href = "bienvenida.html";
     } else {
         if (!correoValido) {
     mensajeError.textContent = "El correo no tiene un formato válido.";
