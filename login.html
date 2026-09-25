@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="formularioLog">
+        <h1>Formulario de Inicio de Sesión</h1>
+        <form class="formulario">
+            <div class="grupo-formulario">
+    <label for="correo">Correo</label>
+<input type="text" id="correo" placeholder="correo@email.com" required></div>
+            <div class="grupo-formulario">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" placeholder="Ingresa tu contraseña" required>
+                <button type="button" id="btnVerContra">Ver</button>
+            </div>
+            <div class="grupo-formulario">
+         <label for="edad">Fecha de nacimiento</label>
+    <input type="date" id="edad" required>
+            </div>
+            <button type="submit" id="btnIniciarSesion">Iniciar sesión</button>
+            <p id="mensajeError"></p>
+        </form>
+    </div>
+    <script src="js/utileria.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>
