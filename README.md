@@ -9,6 +9,14 @@ Esta librería contiene diferentes funciones utilitarias creadas en JavaScript p
 
 La librería fue hecha para facilitar algunas tareas comunes dentro de formularios y páginas web.
 
+![Prueba 1](capturas/prueba1.jpeg)
+![Prueba 2](capturas/Prueba2.jpg)
+![Prueba 3](capturas/prueba3.jpeg)
+
+## 📹 Video Explicativo y Demostración
+Puedes ver la demostración en funcionamiento del proyecto y la explicación del código en el siguiente enlace de YouTube:
+https://www.youtube.com/watch?v=dcmL7tz2mpo
+
 ## Funciones
 
 ### 1. validarCorreo(correo)
@@ -182,7 +190,3 @@ El formulario utiliza las funciones `validarCorreo()`, `validarContra()` y `esMa
 
 Cuando los datos son correctos, el usuario es enviado a la página de bienvenida.
 ## Evidencias de Funciones (Consola)
-
-![Prueba 1](capturas/prueba1.jpeg)
-![Prueba 2](capturas/Prueba2.jpg)
-![Prueba 3](capturas/prueba3.jpeg)
